@@ -1,6 +1,6 @@
 # RailsRules
 
-This gem provides a set of [rules](https://docs.cursor.com/context/rules) files for working with AI tooling.
+This gem provides a set of [rules](https://docs.cursor.com/context/rules) files for use when building Rails apps with AI editor tools.
 
 At this early stage, the functionality is limited to creating `.cursor/rules` files for [Cursor](https://www.cursor.com).
 
