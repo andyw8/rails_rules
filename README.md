@@ -1,10 +1,10 @@
 # RailsRules
 
-This gem helps with creating and managing [rules](https://docs.cursor.com/context/rules) files for tools such as Cursor.
+This gem provides a set of [rules](https://docs.cursor.com/context/rules) files for working with AI tooling.
 
-The rules files were originally created by [Kieran Klaassen](https://github.com/kieranklaassen).
+At this early stage, the functionality is limited to creating `.cursor/rules` files for [Cursor](https://www.cursor.com).
 
-In this early release, the functionality is limited to creating `.cursor/rules` files for [Cursor](https://www.cursor.com).
+The rules files were originally created by [Kieran Klaassen](https://github.com/kieranklaassen) and are reproduced with permission.
 
 ## Installation
 
