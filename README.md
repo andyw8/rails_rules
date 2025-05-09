@@ -4,7 +4,7 @@ This gem provides a set of [rules](https://docs.cursor.com/context/rules) files 
 
 At this early stage, the functionality is limited to creating `.cursor/rules` files for [Cursor](https://www.cursor.com).
 
-The rules files were originally created by [Kieran Klaassen](https://github.com/kieranklaassen) and are reproduced with permission.
+The rules files were originally created by [Kieran Klaassen](https://github.com/kieranklaassen) and contributed to [Jumpstart Pro Rails](jumpstartrails.com), and are reproduced with permission.
 
 ## Installation
 
