@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Andy Waite"]
   spec.email = ["andyw8@users.noreply.github.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
+  spec.summary = "Create and manage rules files for AI tooling"
   spec.homepage = "https://github.com/andyw8/rails_rules"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
