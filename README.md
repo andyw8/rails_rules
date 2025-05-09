@@ -8,11 +8,7 @@ The rules files were originally created by [Kieran Klaassen](https://github.com/
 
 ## Installation
 
-Install the gem and add to the application's Gemfile by executing:
-
-```bash
-bundle add rails_rules
-```
+Add the gem to the `development` group in your Gemfile.
 
 ## Usage
 
