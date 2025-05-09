@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     rails_rules (0.2.0)
-      rails (>= 8.0.2)
+      rails (>= 7)
 
 GEM
   remote: https://rubygems.org/

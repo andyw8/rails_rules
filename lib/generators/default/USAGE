@@ -1,0 +1,7 @@
+Description:
+    Create rules files for AI tooling
+
+Example:
+    bin/rails generate rails_rules:default
+
+    This will create set of files within `.rules/cursor`.
