@@ -1,6 +1,6 @@
 ---
 description: Follow Rails 8.0 view standards with Tailwind CSS in ERB templates
-globs: ["app/views/**/*.html.erb", "lib/jumpstart/app/views/**/*.html.erb"]
+globs: ["app/views/**/*.html.erb"]
 ---
 
 # Rails View Standards with Tailwind
