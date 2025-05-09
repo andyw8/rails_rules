@@ -4,7 +4,7 @@ This gem helps with creating and managing [rules](https://docs.cursor.com/contex
 
 The rules files were originally created by [Kieran Klaassen](https://github.com/kieranklaassen).
 
-In this first releases, the functionality is limited to create `.cursor/rules` files for cursor.
+In this early release, the functionality is limited to creating `.cursor/rules` files for [Cursor](https://www.cursor.com).
 
 ## Installation
 
