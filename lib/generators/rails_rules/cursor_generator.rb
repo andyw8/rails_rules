@@ -1,5 +1,5 @@
 module RailsRules
-  class DefaultGenerator < Rails::Generators::Base
+  class CursorGenerator < Rails::Generators::Base
     TARGET_PATH = ".cursor/rules"
     source_root File.expand_path("templates", __dir__)
     def create_rules_cursor_directory
@@ -7,7 +7,7 @@ module RailsRules
     end
 
     def copy_files
-      directory_path = "lib/generators/default/templates"
+      directory_path = "lib/generators/cursor/templates"
       files = [
         "000-cursor-rules.mdc",
         "1000-rails-general.mdc",

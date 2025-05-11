@@ -19,8 +19,8 @@ Add the gem to the `development` group in your Gemfile.
 Run the generator corresponding to your editor:
 
 ```bash
-bin/rails generate rails_rules:default # cursor
-bin/rails generate rails_rules:zed
+bin/rails generate rails_rules:cursor # generates a collection of rules in .cursor/rules
+bin/rails generate rails_rules:zed    # generates a single .rules file
 ```
 
 ## Development
