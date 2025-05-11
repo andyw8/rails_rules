@@ -100,7 +100,7 @@ def create_account @account = Account.create!(name: @account_name, owner: @user)
 
 def create_account_user AccountUser.create!( account: @account, user: @user, admin: true ) end end
 
-````
+```
 </example>
 
 <example type="invalid">
@@ -124,6 +124,6 @@ module Services
     end
   end
 end
-````
+```
 
 </example>

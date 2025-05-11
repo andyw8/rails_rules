@@ -58,7 +58,7 @@ def set_category @category = Category.find(params.expect(:id)) rescue ActiveReco
 
 def category_params params.expect(category: [:name, :description]) end end
 
-````
+```
 </example>
 
 <example type="invalid">
@@ -77,6 +77,6 @@ class CategoriesController < ApplicationController
     end
   end
 end
-````
+```
 
 </example>

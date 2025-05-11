@@ -78,7 +78,7 @@ def has_trial? trial_period_days > 0 end
 
 def monthly? interval == "month" end end
 
-````
+```
 </example>
 
 <example type="invalid">
@@ -100,6 +100,6 @@ class Plan < ApplicationRecord
     all
   end
 end
-````
+```
 
 </example>

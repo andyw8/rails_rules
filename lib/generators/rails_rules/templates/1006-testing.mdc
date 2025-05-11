@@ -34,17 +34,34 @@ globs: ["test/**/*.rb"]
 ```ruby
 require "test_helper"
 
-class UserTest < ActiveSupport::TestCase setup do @user = users(:one) @account = accounts(:one) end
+class UserTest < ActiveSupport::TestCase
+  setup do
+    @user = users(:one)
+    @account = accounts(:one)
+  end
 
-test "valid user" do assert @user.valid? end
+  test "valid user" do
+    assert @user.valid?
+  end
 
-test "invalid without email" do @user.email = nil refute @user.valid? assert_not_nil @user.errors[:email] end
+  test "invalid without email" do
+    @user.email = nil
+    refute @user.valid?
+    assert_not_nil @user.errors[:email]
+  end
 
-test "can be assigned to account" do account_user = AccountUser.new(user: @user, account: @account) assert account_user.valid? end
+  test "can be assigned to account" do
+    account_user = AccountUser.new(user: @user, account: @account)
+    assert account_user.valid?
+  end
 
-test "can have admin role" do account_user = AccountUser.new(user: @user, account: @account, admin: true) assert account_user.admin? assert_includes account_user.active_roles, :admin end end
-
-````
+  test "can have admin role" do
+    account_user = AccountUser.new(user: @user, account: @account, admin: true)
+    assert account_user.admin?
+    assert_includes account_user.active_roles, :admin
+  end
+end
+```
 </example>
 
 <example type="invalid">
@@ -66,6 +83,6 @@ class UserTest < ActiveSupport::TestCase
     assert_equal false, @user.valid?
   end
 end
-````
+```
 
 </example>
