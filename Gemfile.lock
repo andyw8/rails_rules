@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_rules (0.2.0)
+    rails_rules (0.3.0)
       front_matter_parser
       rails (>= 7)
 
