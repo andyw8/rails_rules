@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     rails_rules (0.2.0)
+      front_matter_parser
       rails (>= 7)
 
 GEM
@@ -89,6 +90,7 @@ GEM
     date (3.4.1)
     drb (2.2.1)
     erubi (1.13.1)
+    front_matter_parser (1.0.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
