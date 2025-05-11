@@ -23,7 +23,7 @@ module RailsRules
         templates_path = File.expand_path("templates", __dir__)
         string = File.read(File.join(templates_path, file))
         parser = FrontMatterParser::Parser.new(:md).call(string)
-        result += parser.content
+        result += "\n" + parser.content
       end
       create_file TARGET_PATH, result
     end
