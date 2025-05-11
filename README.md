@@ -1,12 +1,12 @@
 # RailsRules
 
-This gem provides a set of [rules](https://docs.cursor.com/context/rules) files for use when building Rails apps with AI editor tools.
+This gem provides a set of [rules](lib/generators/rails_rules/templates) files for use when building Rails apps with AI editor tools.
 
 The rules are intended to be a starting point, corresponding to the Rails defaults for a new application. You should modify the rules as necessary for your application.
 
 Editors have different naming conventions and structure for rules files. Some support multiple files, but others require everything to be in a single file.
 
-Two editors are currently supported: Cursor and Zed
+Two editors are currently supported: Cursor ([rules](https://docs.cursor.com/context/rules)) and Zed.
 
 The rules files were originally created by [Kieran Klaassen](https://github.com/kieranklaassen) and contributed to [Jumpstart Pro Rails](https://jumpstartrails.com), and are reproduced with permission.
 
