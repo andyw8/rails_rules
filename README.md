@@ -2,9 +2,11 @@
 
 This gem provides a set of [rules](https://docs.cursor.com/context/rules) files for use when building Rails apps with AI editor tools.
 
-It currently supports Cursor and Zed.
+The rules are intended to be a starting point, corresponding to the Rails defaults for a new application. You should modify the rules as necessary for your application.
 
-The Cursor rules are treat as the canonical version.
+Editors have different naming conventions and structure for rules files. Some support multiple files, but others require everything to be in a single file.
+
+Two editors are currently supported: Cursor and Zed
 
 The rules files were originally created by [Kieran Klaassen](https://github.com/kieranklaassen) and contributed to [Jumpstart Pro Rails](jumpstartrails.com), and are reproduced with permission.
 
@@ -13,6 +15,8 @@ The rules files were originally created by [Kieran Klaassen](https://github.com/
 Add the gem to the `development` group in your Gemfile.
 
 ## Usage
+
+Run the generator corresponding to your editor:
 
 ```bash
 bin/rails generate rails_rules:default # cursor
