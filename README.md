@@ -8,7 +8,7 @@ Editors have different naming conventions and structure for rules files. Some su
 
 Two editors are currently supported: Cursor and Zed
 
-The rules files were originally created by [Kieran Klaassen](https://github.com/kieranklaassen) and contributed to [Jumpstart Pro Rails](jumpstartrails.com), and are reproduced with permission.
+The rules files were originally created by [Kieran Klaassen](https://github.com/kieranklaassen) and contributed to [Jumpstart Pro Rails](https://jumpstartrails.com), and are reproduced with permission.
 
 ## Installation
 
