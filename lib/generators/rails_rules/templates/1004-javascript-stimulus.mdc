@@ -61,7 +61,7 @@ export default class extends Controller { // Define expected properties and thei
 
 // Updates tooltip content when content value changes contentValueChanged() { this.updateContent() } }
 
-````
+```
 </example>
 
 <example type="invalid">
@@ -85,6 +85,6 @@ export default class extends Controller {
     })
   }
 }
-````
+```
 
 </example>
